@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> HTML Cheat Sheet </title>
+		<title> HTML </title>
 	</head>
 	<body>
 		<h1 title="heading here"> H1 Here </h1> <!-- heading -->
@@ -21,8 +21,8 @@
 		</ul>
 			
 		<ol>
-			<li> <a href="file:///Users/abduljabbarm/Documents/learnhtml/index.html" target="_blank">file:///Users/abduljabbarm/Documents/learnhtml/index.html</a> </li>
-			<li> item 5 </li>
+			<li> <a href="file:///Users/abduljabbarm/Documents/learnhtml/index.html">reload in office</a> </li>
+			<li> <a href="file:///C:/Users/User/Desktop/Jabbar/learnhtml/index.html">reload in k21</a> </li>
 			<li> item 6 </li>
 		</ol>
 		
@@ -57,11 +57,51 @@
 			 </tbody>	 
 		</table>
 		
+		<br>
+		<hr>
+		<br>
+
 		<!--forms-->
 		<form action="process.php" method=" POST">
-			<label>First Name</label>
-			<input type="text" name="first-name">
-		
+			<div>
+				<label>First Name</label>
+				<input type="text" name="firstName">
+			</div>
+			<br>
+			<div>	
+				<label>Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div>	
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>	
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<div>	
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+			</div>
+			<br>
+			<div>	
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>	
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+
 		</form>
 		
 		
