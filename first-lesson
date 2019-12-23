@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HTML Cheat Sheet </title>
+	</head>
+	<body>
+		<h1 title="heading here"> H1 Here </h1> <!-- heading -->
+		<h2> headings </h2>
+		<h3> headings </h3>
+		<h4> headings </h4>
+		<h5> headings </h5>
+		<h6> headings </h6>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed  <strong>do eiusmod tempor incididunt</strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="http://google.com" target="_blank">cupidatat</a> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.. </p> <!-- paragraph-->
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <em>eiusmod tempor</em> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.. </p> <!-- paragraph-->
+
+		<!-- lists-->
+		<ul>
+			<li> item 1 </li>
+			<li> item 2 </li>
+			<li> item 3 </li>
+		</ul>
+			
+		<ol>
+			<li> <a href="file:///Users/abduljabbarm/Documents/learnhtml/index.html" target="_blank">file:///Users/abduljabbarm/Documents/learnhtml/index.html</a> </li>
+			<li> item 5 </li>
+			<li> item 6 </li>
+		</ol>
+		
+		<!--tables-->
+		<table>
+		
+			 <thead>
+			 	<tr>
+			 		<th> Name </th>
+			 		<th> Age </th>
+			 		<th> Email </th>
+			 	</tr>
+			 </thead>
+			 
+			 <tbody>
+			 	<tr>
+				 		<td> abdol </td>
+				 		<td> 15 </td>
+				 		<td> abdol@google.com </td>
+			 	</tr>
+			 	<tr>
+				 		<td> jabbar </td>
+				 		<td> 25 </td>
+				 		<td> jabbar@google.com </td>
+			 	</tr>
+			 	<tr>
+				 		<td> salleh </td>
+				 		<td> 35 </td>
+				 		<td> salleh@google.com </td>
+			 	</tr>
+			 	
+			 </tbody>	 
+		</table>
+		
+		<!--forms-->
+		<form action="process.php" method=" POST">
+			<label>First Name</label>
+			<input type="text" name="first-name">
+		
+		</form>
+		
+		
+		<div style="margin-top:500px"></div>
+	</body>
+</html>
